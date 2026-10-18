@@ -1,0 +1,19 @@
+{
+  "name": "tree-project",
+  "version": "0.1.0",
+  "description": "Small, framework-agnostic CSS: buttons, cards, inputs, layout, dark mode etc",
+  "main": "styles.css",
+  "style": "styles.css",
+  "exports": {
+    ".": "./styles.css",
+    "./styles.css": "./styles.css"
+  },
+  "files": [
+    "styles.css"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "keywords": ["css", "styles", "ui", "dark-mode"],
+  "license": "MIT"
+}
